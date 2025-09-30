@@ -23,5 +23,7 @@ else:
             resultado_hex = "E" + resultado_hex
         elif resto == 15:
             resultado_hex = "F" + resultado_hex 
+        else: 
+            resultado_hex = ""
            
 print(f"O número {numero} em hexadecimal é: {resultado_hex}") 
